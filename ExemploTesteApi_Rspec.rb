@@ -47,7 +47,7 @@ class TestaCliente
                         expect(resposta.body).to include(requestBody[:id])                    
                 end
 
-                it "Quando eu deletar um cliente, Então ele deve ser removido com sucesso" do
+                it "Quando eu deletar um cliente, Então ele deve ser removido com sucesso", :deletar => true do
                         requestBody = { :nome => 'Minnie Mouse', :idade => '55', :id => '8752' }
                         resposta = HTTParty.post(@@baseURL + @@recursoCliente, 
                                 :body => requestBody.to_json,
