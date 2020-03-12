@@ -1,4 +1,4 @@
-Testes para a API de exemplo do curso de APIs do viniciuspessoni.com
+### Testes para a API de exemplo do curso de APIs do viniciuspessoni.com
 
 Essa framewok de teste foi desenvolvido usando Ruby, Rspec e HttParty.
 
@@ -17,4 +17,4 @@ Me Segue =}
 
 💗 [Instagram](https://www.instagram.com/pessonizando)
 
-⭐ [Telegram](https:/
+⭐ [Telegram](https://t.me/pessonizando)
