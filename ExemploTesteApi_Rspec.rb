@@ -57,8 +57,8 @@ class TestaCliente
                                 
                         puts resposta.code, resposta.headers, resposta.body
                         expect(resposta.code).to eq(200)
-                        expect(resposta.body).should_not include(requestBody[:id])
-                                
+                        expect(resposta.body).to include(requestBody[:id])
+                        expect(resposta.body).to include("CLIENTE REMOVIDO")
                 end
 
         end
